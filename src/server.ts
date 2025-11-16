@@ -9,6 +9,7 @@ const app = Express();
 
 // the port to listen on
 const inputPort = process.env.PORT || 4001;
+console.log("Transcript manager server ");
 
 // initializes the server
 function initializeServer() {

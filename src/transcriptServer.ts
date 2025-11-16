@@ -14,6 +14,7 @@ export default function addTranscriptServerRoutes(app: Express) {
   app.get('/transcripts', (req: Request, res: Response) => {
     const data = db.getAll();
     console.log(data);
+    console.log("somehting");
     res.status(200).send(data);
   });
 
